@@ -10,4 +10,8 @@ const elemento"document.queryselector(selectoraudio);
 const listaDeTeclas= document queryselector All('tecla')
 for(let contador= O;contador <listaDeTeclas length;contador++) {
   const tecla= listaDeTeclas[contador]
-  const instrumento= 
+  const instrumento= teclaclasslist[3]
+  const Audio= '#som_${instrumento}';
+  tecla onclick= function(){
+    tocasom (;Audio);
+  }
